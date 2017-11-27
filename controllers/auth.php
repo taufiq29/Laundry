@@ -35,10 +35,6 @@ class auth extends CI_Controller {
       $this->login->logout();
       redirect('auth');
     }
-    
-    public function register(){
-        $this->load->model('register');
-    }
 
     public function register() {
       # code...
